@@ -1,0 +1,109 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: poppins sans-serif;
+
+}
+body{
+  min-height: 130vh;
+  background-size: 100%;
+  object-fit: cover;
+  position: relative;
+}
+
+header{
+    position: sticky;
+    left: 0;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    transition: 0.6s;
+    padding: 0px 3px 0px 2px ;
+    z-index: 900;
+        
+}
+header ul{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: left;
+            
+}
+header ul li{
+    position: relative;
+    list-style: none;
+    
+    
+}
+header ul li a{
+position: relative;
+margin: 0 15px;
+text-decoration: none;
+color:black;
+letter-spacing: 2px;
+font-weight: 500px;
+transition: 0.6s;
+font-family: bold ,8px,'Times New Roman', Times, serif;
+}
+
+
+.logo{
+    width: 5px;
+    padding: .00001em;
+    margin: 0%;
+    display: block;
+    position: relative;
+    transition: 0.6s;
+}
+
+
+
+.fab{
+    font-size: 30px;
+    align-items: center;
+  
+    float: right;
+    padding-left: 10px; 
+}
+.hh{
+     border: 3px solid black;
+    width: 350px;
+    margin: auto;
+    padding-left: 6px;
+    text-align: left;
+    margin-left: 400px;
+    padding-top: 20px;
+    height: 500px; 
+    line-height: 20px; 
+    margin-top: 1%;
+    background-color:burlywood;  
+    border-radius: 70px 0 70px 0;
+ 
+}
+#but{
+    margin-left: 100px;
+    background-color:dodgerblue;
+    width:40%;
+    height: 1.8em;
+    
+}
+#fb{
+    color: royalblue;
+}
+#yt{
+    color: red;
+}
+#in{
+    color: maroon;
+}
+#gp{
+    color: mintcream;
+   
+}
+
+footer {
+    font-family: 'Roboto';font-size: 20px;
+}
+.container{
+    text-decoration: none;
+}
