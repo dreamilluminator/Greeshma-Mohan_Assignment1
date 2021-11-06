@@ -147,3 +147,8 @@ a, a:focus, a:hover {
     background-size: cover;
 
 }
+.dis{
+    padding-left: 50px;
+    background-color:rgb(188, 233, 248);
+    font-family: 5px bold black;
+}
